@@ -1,13 +1,35 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #1976D2; */
+  /* background-color: #f1f5fb; */
+  /* background-color: #8bbae5; */
+  /* background-color: #4486c2; */
+   background: rgb(110, 174, 226); 
+   background: linear-gradient(90deg, rgb(40, 39, 56) 0%, rgb(220, 233, 240) 0%, rgb(164, 234, 248) 100%); 
+
+  font-family: 'Domine', serif;
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Domine', serif;
+
+}
+
+.card{
+   /* background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);   */
+  /* background-color: white;
+  color:black */
+  background-color: #1975d2;
+
+}
+.app{
+  font-family: 'Domine', serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
